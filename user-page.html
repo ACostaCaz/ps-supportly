@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>User Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="search_icon.css" />
+        <script
+            src="https://kit.fontawesome.com/4c885432c0.js"
+            crossorigin="anonymous"
+        ></script>
+        <style>
+            body{
+                padding-left: 0%;
+                padding-top: 0%;
+            }
+            .rectangle {
+                border-radius: 25px;
+                height: 200px;
+                width: 200px;
+                background-color: #A7CFF2;
+            }
+            .header {
+                height: 10vh;
+                width: 100vw;
+                background-color: #011640;
+            }
+            #logo{
+                width: 230px;
+                height: 218px;
+            }
+
+            .button{
+                height: 56px;
+                width: 321px;
+                background-color: #A7CFF2;
+            }
+            body {
+  margin: 0;
+}
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #011640;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+li a {
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+}
+.search-bar input[type="text"] {
+  background-color: #011640;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.search-bar button {
+  background-color: #011640;
+  border: none;
+}
+.fa-circle-user {
+  color: white;
+  padding: 16px;
+  font-size: 24px;
+}
+
+.fa-magnifying-glass {
+  color: white;
+  padding: 8px;
+}
+
+.icons-container button {
+  border-radius: 20px;
+}
+
+.logo {
+  width: 40px;
+  padding: 5px;
+}
+
+            
+
+            
+        </style>
+    </head>
+    <body>
+        <header class="header" style="position:relative; left:0px; top:0px">
+            <nav class="navbar">
+                <a href="/">
+                  <img class="logo" src="../logo.png" alt="logo" />
+                </a>
+                <div class="search-bar">
+                  <input type="text" id="search-bar" placeholder="Search..." />
+                  <div class="icons-container">
+                    <button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </div>
+                </div>
+                <ul class="nav-links">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="discover.html">Discover</a>
+                  </li>
+              
+                  <li>
+                    <i class="fa-solid fa-circle-user"></i>
+                  </li>
+                </ul>
+              </nav>
+        </header>
+        <article style="display: flex; flex-direction: column; align-items: center;justify-content: space-between">
+            <section>
+                <img id="logo" src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="AL CARAJO">
+            </section>
+
+            <button class="button" >
+                <p style="position: relative; left: 20%">+CREAR UN PROYECTO</p>
+            </button>
+
+            <section style="display: flex; flex-direction: wrap row; justify-content: space-around; align-items: center">
+                <p style="display: flex; margin-right: 80px">Mis Proyectos</p>
+                <p>Proyectos guardados</p>
+            </section>
+
+
+            
+        </article>
+        <article style="display:flex; flex-direction: wrap row; align-content: center; justify-content: space-between; margin-top: 20px;">
+            <section style="max-width: 392px;">
+                <img src="https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/12/Roque-nublo_g.jpg" style="width:392px; height:221px">
+                <p style="position: relative; left: 42%;">Athos</p>
+                <p style="position: relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </section>
+            <section style="max-width: 392px;">
+                <img src="https://farm6.staticflickr.com/5449/7220311274_224df16e7b.jpg" style="width:392px; height:221px">
+                <p style="position: relative; left: 42%;">Porthos</p>
+                <p style="position: relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </section>
+            <section style="max-width: 392px;">
+                <img src="https://www.abcviajes.com/fotos_de_viajes/fotos/18_270_5_canarias__la_gomera__el_cedro___036.jpg" style="width:392px; height:221px">
+                <p style="position: relative; left: 42%;">Aramis</p>
+                <p style="position: relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </section>
+        </article>        
+
+        <article>
+        </article>
+        <footer class="footer">
+            <p>Utilities</p>
+            <ul>
+                <li><a href="#">Return to home</a></li>
+                <li><a href="#">Most voted posts</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+
+            <p>Legal information</p>
+            <ul>
+                <li><a href="#">Terms of use & conditions</a></li>
+                <li><a href="#">Selling regulation</a></li>
+                <li><a href="#">Accesibility</a></li>
+                <li><a href="#">Privacy & security</a></li>
+                <li><a href="#">Cookies policy</a></li>
+                <li><a href="#">Stripe</a></li>
+            </ul>
+
+            <p>Community</p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../assets/iglogo.png" alt="iglogo" />
+                        Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img
+                            src="../assets/twitterlogo.png"
+                            alt="twitterlogo"
+                        />
+                        Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img
+                            src="../assets/youtubelogo.png"
+                            alt="youtubelogo"
+                        />
+                        Youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img
+                            src="../assets/facebooklogo.png"
+                            alt="facebooklogo"
+                        />
+                        Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../assets/maillogo.png" alt="maillogo" />
+                        Contact mail
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

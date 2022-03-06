@@ -1,15 +1,58 @@
 
 
 .commentSection {
-    background-color: #A7CFF2;
     border-radius: 10px;
-    background-size: 961px 679px;
+    background-color: #A7CFF2;
+    height: 750px;
+    width: 960px;
+    margin:10px;
+    padding: 50px;
 }
 
 .mainComment {
     background-color: #FFFFFF;
-    margin: 50px;
-    background-size: 900px 187px;
+    height: 187px;
+    width: 900px;
     border-radius: 10px;
+    padding: 20px;
+}
+
+.responseComment {
+    background-color: #FFFFFF;
+    height: 187px;
+    width: 830px;
+    margin:50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.newCommentForm {
+    border-radius: 10px;
+    background-color: #A7CFF2;
+    height: 190px;
+    width: 960px;
+    margin:10px;
+    padding: 50px;
+}
+
+#newCommentText {
+    width: 790px;
+    font-family: Robo;
+}
+
+#commentSubmit {
+    background-color: #537FA6;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+}
+
+.userPhoto {
+    background-color: #A7CFF2;
+}
+
+a {
+    color: black;
 }
 

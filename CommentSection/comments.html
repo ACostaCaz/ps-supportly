@@ -3,28 +3,59 @@
 <html>
     <head>
         <link rel="stylesheet" href="commentstyle.css" />
+        <link rel="stylesheet" type="text/css" href="../Navbar/search_icon.css" />
+        <script
+        src="https://kit.fontawesome.com/4c885432c0.js"
+        crossorigin="anonymous"
+        ></script>
     </head>
 
     <body>
+        <nav class="navbar">
+            <a href="/">
+              <img class="logo" src="../assets/logo.png" alt="logo" />
+            </a>
+            <div class="search-bar">
+              <input type="text" id="search-bar" placeholder="Search..." />
+              <div class="icons-container">
+                <button>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </div>
+            <ul class="nav-links">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="discover.html">Discover</a>
+              </li>
+          
+              <li>
+                <i class="fa-solid fa-circle-user"></i>
+              </li>
+            </ul>
+        </nav>
+
         <h4>Community comments</h4>
         <div class="commentSection">
             <div class="mainComment">
-                <img src="../assets/useravatar.png" alt="userPhoto">
+                <img src="../assets/useravatar.png" class="userPhoto" alt="userPhoto">
                 <p>User 1</p>
                 <p>4 days ago</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A vulputate sit massa pellentesque sit. Enim facilisis odio rutrum sed
                     egestas gravida. Massa ultrices suspendisse vulputate dictum ullamcorper. Eu, integer quis fringilla semper lacus non,
                     commodo lectus.</p>
                 <div class="responseComment">
-                    <img src="../assets/useravatar.png" alt="userPhoto">
-                    <p>User 2></p>
+                    <img src="../assets/useravatar.png" class="userPhoto" alt="userPhoto">
+                    <p>User 2</p>
                     <p>1 hour ago</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, quis tellus et convallis eleifend. Interdum scelerisque leo purus fames blandit et convallis urna neque.</p>
                 </div>
         
                 <div class="responseComment">
-                    <img src="../assets/useravatar.png" alt="userPhoto">
-                    <p>User 3></p>
+                    <img src="../assets/useravatar.png" class="userPhoto" alt="userPhoto">
+                    <p>User 3</p>
                     <p>A few minutes ago</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, quis tellus et convallis eleifend. Interdum scelerisque leo purus fames blandit et convallis urna neque.</p>
                 </div>
@@ -33,11 +64,74 @@
 
         </div>
         <div class="newCommentForm">
-            <form>
-                <textarea name="newCommentText" rows="10" cols="30" placeholder="Add a new comment..."></textarea>
+            <form id="addNewComment">
+                <textarea name="newCommentText" id="newCommentText"rows="10" cols="30" placeholder="Add a new comment..."></textarea>
                 <input type="submit" id="commentSubmit" value="Comment">
             </form>
         </div>
+
+        <footer class="footer">
+            <p>Utilities</p>
+            <ul>
+                <li><a href="#">Return to home</a></li>
+                <li><a href="#">Most voted posts</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+
+            <p>Legal information</p>
+            <ul>
+                <li><a href="#">Terms of use & conditions</a></li>
+                <li><a href="#">Selling regulation</a></li>
+                <li><a href="#">Accesibility</a></li>
+                <li><a href="#">Privacy & security</a></li>
+                <li><a href="#">Cookies policy</a></li>
+                <li><a href="#">Stripe</a></li>
+            </ul>
+
+            <p>Community</p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../assets/iglogo.png" alt="iglogo" />
+                        Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img
+                            src="../assets/twitterlogo.png"
+                            alt="twitterlogo"
+                        />
+                        Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img
+                            src="../assets/youtubelogo.png"
+                            alt="youtubelogo"
+                        />
+                        Youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img
+                            src="../assets/facebooklogo.png"
+                            alt="facebooklogo"
+                        />
+                        Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../assets/maillogo.png" alt="maillogo" />
+                        Contact mail
+                    </a>
+                </li>
+            </ul>
+        </footer>
         
     </body>
 </html>

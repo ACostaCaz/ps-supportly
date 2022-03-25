@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="../Navbar/navbar.css" />
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <a href="/">
+              <img class="logo" src="../assets/logo.png" alt="logo" />
+            </a>
+            <div class="search-bar">
+              <input type="text" id="search-bar" placeholder="Search..." />
+              <div class="icons-container">
+                <button>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </div>
+            <ul class="nav-links">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="discover.html">Discover</a>
+              </li>
+          
+              <li>
+                <i class="fa-solid fa-circle-user"></i>
+              </li>
+            </ul>
+        </nav>
+
+        <h2>Create a project</h2>
+
+        <form>
+            <label for="category">Select a category for your project</label><br>
+            <input type="text" id="category" name="category" value="Select"><br>
+
+            <label for="subcategory">Select a subcategory for your project</label><br>
+            <input type="text" id="subcategory" name="subcategory" value="Select"><br>
+
+            <label for="location">Select a location</label><br>
+            <input type="text" id="location" name="location" value="Select a country"><br>
+
+            <label for="projectTitle">Project title:</label><br>
+            <input type="text" id="projectTitle" name="projectTitle"><br>
+
+            <label for="projectSubTitle">Project subtitle:</label><br>
+            <input type="text" id="projectSubTitle" name="projectSubTitle"><br>
+
+            <label for="projectDesc">Project description:</label><br>
+            <input type="text" id="projectDesc" name="projectDesc"><br>
+
+            <label for="projectGoal">Goal:</label><br>
+            <input type="text" id="projectGoal" name="projectGoal" value="€ 0"><br>
+
+            <label for="projectMedia">Multimedia:</label><br>
+            <input type="text" id="projectMedia" name="projectMedia" value="Add media files"><br>
+            
+            <label for="projectDeadline">Project deadline:</label><br>
+            <form>
+                <label for="projectDay">Day:</label>
+                <input type="text" id="projectDay" name="projectDay">
+
+                <label for="projectMonth">Month:</label>
+                <input type="text" id="projectMonth" name="projectDay">
+
+                <label for="projectYear">Year:</label>
+                <input type="text" id="projectYear" name="projectDay">
+            </form>
+
+            <input type="submit" value="Add rewards"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+</html>

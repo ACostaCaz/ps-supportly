@@ -2,10 +2,6 @@
     margin: 10px;
 }
 
-.rewardContent {
-    background-color: aqua;
-}
-
 h2 {
     margin: 10px;
 }
@@ -16,7 +12,7 @@ h3 {
 
 
 input[type=text] {
-    width: 400px;
+    width: 300px;
     height: 30px;
     left: 124px;
     top: 397px;
@@ -54,4 +50,29 @@ input[type=submit] {
     border-radius: 10px;
     border-color: #A7CFF2;
     margin-top: 20px;
+}
+
+@media all and (max-width: 834px) {
+    input[type=text] {
+        width: 150px;
+        height: 30px;
+        left: 124px;
+        top: 397px;
+        border: 1px solid #A7CFF2;
+        box-sizing: border-box;
+        border-radius: 10px;
+        
+    }
+
+    input[type=submit] {
+        margin-top: 20px;
+        background-color: #A7CFF2;
+        border-radius: 10px;
+        border-color: #A7CFF2;
+        border-style: hidden;
+        width: 200px;
+        height: 38px;
+        left: 862px;
+        top: 714px;
+    }
 }

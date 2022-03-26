@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../Navbar/navbar.css" />
+        <link rel="stylesheet" href="project.css" />
     </head>
 
     <body>
@@ -35,26 +36,27 @@
 
         <h3>Add new tier</h3>
 
-        <form>
+        <form class="rewards">
+
             <label for="rewardTitle">Title:</label><br>
-            <input type="text" id="rewardTitle" name="rewardTitle"><br>
+            <input class="formInput" type="text" id="rewardTitle" name="rewardTitle"><br>
 
             <label for="rewardMoneyAmount">Amount:</label><br>
-            <input type="text" id="rewardMoneyAmount" name="rewardMoneyAmount"><br>
+            <input class="formInput" type="text" id="rewardMoneyAmount" name="rewardMoneyAmount" value="€ 0"><br>
 
             <label for="rewardDescription">Description:</label><br>
-            <input type="text" id="rewardDescription" name="rewardDescription"><br>
+            <input class="formInput" type="text" id="rewardDescription" name="rewardDescription">
 
-            <form>
+            <form class="rewardContent">
                 <h5>Content:</h5>
                 <label for="rewardContentTitle">Title:</label><br>
-                <input type="text" id="rewardContentTitle" name="rewardContentTitle"><br>
+                <input class="formInput" type="text" id="rewardContentTitle" name="rewardContentTitle"><br>
 
                 <label for="rewardContentAmount">Amount:</label><br>
-                <input type="text" id="rewardContentAmount" name="rewardContentAmount"><br>
+                <input class="formInput" type="text" id="rewardContentAmount" name="rewardContentAmount"><br>
 
                 <label for="rewardContentDelivery">Delivery:</label><br>
-                <input type="text" id="rewardContentDelivery" name="rewardContentDelivery"><br>
+                <input class="formInput" type="text" id="rewardContentDelivery" name="rewardContentDelivery"><br>
 
                 <input type="submit" value="Add complement">
             </form>

@@ -3,6 +3,7 @@
 
     <head>
         <link rel="stylesheet" type="text/css" href="../Navbar/navbar.css" />
+        <link rel="stylesheet" href="project.css" />
     </head>
 
     <body>
@@ -61,14 +62,16 @@
             
             <label for="projectDeadline">Project deadline:</label><br>
             <form>
-                <label for="projectDay">Day:</label>
-                <input type="text" id="projectDay" name="projectDay">
+              <div class="date">
+                  <label for="projectDay">Day:</label>
+                  <input type="text" id="projectDay" name="projectDay">
 
-                <label for="projectMonth">Month:</label>
-                <input type="text" id="projectMonth" name="projectDay">
+                  <label for="projectMonth">Month:</label>
+                  <input type="text" id="projectMonth" name="projectDay">
 
-                <label for="projectYear">Year:</label>
-                <input type="text" id="projectYear" name="projectDay">
+                  <label for="projectYear">Year:</label>
+                  <input type="text" id="projectYear" name="projectDay">
+                </div>
             </form>
 
             <input type="submit" value="Add rewards for your supporters">

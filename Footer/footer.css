@@ -20,5 +20,7 @@ li a {
 }
 
 @media all and (max-width: 834px) {
-    
+    .socialMedia {
+        visibility: hidden;
+    }
 }

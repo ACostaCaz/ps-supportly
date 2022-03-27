@@ -76,3 +76,25 @@ li a {
   padding: 5px;
 }
 
+.fa-solid {
+  color: white;
+}
+.fa-bars {
+  color: white;
+  visibility: hidden;
+}
+
+@media all and (max-width: 834px) {
+  .nav-links {
+    visibility: hidden;
+  }
+
+  .fa-bars {
+    visibility:visible;
+    margin-right: 20px;
+  }
+  
+  .fa-circle-user {
+    visibility: hidden;
+  }
+}

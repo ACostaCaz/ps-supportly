@@ -1,12 +1,32 @@
+<script>
+    function passwordCheck(event) {
+        if(document.getElementById('password').value !== 
+        document.getElementById('passwordRep').value){
+            document.getElementById('password')
+            .setCustomValidity('Passwords do not match.');
+        }
+        else{
+            document.getElementById('password')
+            .setCustomValidity('');
+        }
+    }
+</script>
+
 <div>
     <img src="../assets/logo.png" alt="logo">
     <form>
-        <p><input type="text" id="mail" placeholder="Email"></p>
-        <p><input type="text" id="username" placeholder="Username"></p>
-        <p><input type="password" id="password" placeholder="Password"></p>
-        <p><input type="password" id="passwordRep" placeholder="Repeat password"></p>
+        <p>
+            <input 
+                type="email" 
+                required
+                id="email" 
+                placeholder="Email"
+            />
+        </p>
+        <p><input type="text" required id="username" placeholder="Username"></p>
+        <p><input type="password" required onchange="passwordCheck(event)" id="password" placeholder="Password"></p>
+        <p><input type="password" required onchange="passwordCheck(event)" id="passwordRep" placeholder="Repeat password"></p>
         <input type="submit" id="login" value="Log in"></p>
         <p>Already registered? <a href="login.html">Log in</a></p>
     </form>
 </div>
-        

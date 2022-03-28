@@ -10,6 +10,9 @@ h3 {
     margin: 10px;
 }
 
+body {
+    align-items: center;
+}
 
 input[type=text] {
     width: 300px;
@@ -33,6 +36,34 @@ input[type=text] {
 }
 
 
+
+.rewardContent {
+    margin-left: 600px;
+    margin-right: 10px;
+    margin-top: -200px;
+    padding: 10px;
+}
+
+#rewardContentTitle {
+    margin-left: 600px;
+    margin-right: 10px;
+    margin-top: -200px;
+    padding: 10px;
+}
+
+#rewardContentAmount {
+    margin-left: 600px;
+    margin-right: 10px;
+    margin-top: -200px;
+    padding: 10px;
+}
+
+#rewardContentDelivery {
+    margin-left: 600px;
+    margin-right: 10px;
+    margin-top: -200px;
+    padding: 10px;
+}
 
 input[type=submit] {
     margin-top: 20px;
@@ -74,5 +105,26 @@ input[type=submit] {
         height: 38px;
         left: 862px;
         top: 714px;
+    }
+
+    .rewardContent {
+        margin-left: 10px;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    
+    #rewardContentTitle {
+        margin-left: 10px;
+        padding: 10px;
+    }
+    
+    #rewardContentAmount {
+        margin-left: 10px;
+        padding: 10px;
+    }
+    
+    #rewardContentDelivery {
+        margin-left: 10px;
+        padding: 10px;
     }
 }

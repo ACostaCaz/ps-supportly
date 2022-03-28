@@ -1,6 +1,30 @@
+<script
+    type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+></script>
+<script>
+    function loginCheck(event) {
+        event.preventDefault()
+        $.getJSON('http://localhost:3001/users', function (data) {
+            var user = $(data).filter(function (i, n) {
+                return (
+                    n.username === document.getElementById('username').value &&
+                    n.password === document.getElementById('password').value
+                )
+            })
+            if (user.length == 1) {
+                $('#user').append(`<h1>Logged in</h1>`)
+            } else {
+                $('#user').append(`<h1>User not found</h1>`)
+            }
+        })
+    }
+</script>
+
 <div class="authForm">
     <img src="../assets/logo.png" alt="logo" />
-    <form>
+    <div id="user"></div>
+    <form onsubmit="loginCheck(event)">
         <p>
             <input type="text" id="username" required placeholder="Username" />
         </p>
@@ -13,7 +37,9 @@
             />
         </p>
         <p>Forgot your password?</p>
-        <p><input type="submit" id="login" value="Login" /></p>
+        <p>
+            <input type="submit" id="login" value="Login" />
+        </p>
     </form>
 
     <p>New to Supportly. <a href="register.html">Register</a></p>

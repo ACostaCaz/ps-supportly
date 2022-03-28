@@ -1,5 +1,6 @@
 <script>
     function passwordCheck(event) {
+        event.preventDefault();
         if(document.getElementById('password').value !== 
         document.getElementById('passwordRep').value){
             document.getElementById('password')

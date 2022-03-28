@@ -12,5 +12,25 @@
             "username": "alejandro",
             "password": "alejandro"
         }
+    ],
+    "projects": [
+        {
+            "name": "Project 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "image": "https://www.abcviajes.com/fotos_de_viajes/fotos/18_270_5_canarias__la_gomera__el_cedro___036.jpg",
+            "user": "admin"
+        },
+        {
+            "name": "Project 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "image": "https://www.abcviajes.com/fotos_de_viajes/fotos/18_270_5_canarias__la_gomera__el_cedro___036.jpg",
+            "user": "user"
+        },
+        {
+            "name": "Project 3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "image": "https://www.abcviajes.com/fotos_de_viajes/fotos/18_270_5_canarias__la_gomera__el_cedro___036.jpg",
+            "user": "alejandro"
+        }
     ]
 }
